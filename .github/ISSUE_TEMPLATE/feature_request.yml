@@ -1,0 +1,50 @@
+name: Feature Request
+description: Suggest a new skill or improvement
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an improvement! Please describe your idea below.
+
+  - type: input
+    id: category
+    attributes:
+      label: Category
+      description: What category does this relate to?
+      placeholder: "e.g., new skill, existing skill improvement, orchestration pattern"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear description of the feature or improvement.
+      placeholder: Describe your idea...
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: How would you use this feature? What problem does it solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative solutions or workarounds you have considered.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Any other context, screenshots, or examples.
+    validations:
+      required: false
