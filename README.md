@@ -1,25 +1,17 @@
-# CCB Skills
+# Archived Source Repository
 
-This repository is public and unarchived. It is kept as a maintenance mirror and migration reference for the CCB skills.
+This repository is no longer the canonical home for the CCB / multi-AI coordination skills.
 
-The active canonical destination is:
-- https://github.com/LeoLin990405/claude-code-skills
+Canonical location:
 
-The canonical orchestration entry now lives under:
-- https://github.com/LeoLin990405/claude-code-skills/tree/main/ai-collaboration/ccb-unified
+- `LeoLin990405/claude-code-skills`
+- `ai-collaboration/*`
 
-Legacy installed skill names have been preserved in the monorepo as compatibility shims under:
-- https://github.com/LeoLin990405/claude-code-skills/tree/main/ai-collaboration
+What changed:
 
-Direct mapping summary:
-- `claude-ccb-skills/skills/ask` -> `claude-code-skills/ai-collaboration/ask`
-- `claude-ccb-skills/skills/all-plan` -> `claude-code-skills/ai-collaboration/all-plan`
-- `claude-ccb-skills/skills/{cask,dask,dskask,gask,iask,kask,oask,qask}` -> `claude-code-skills/ai-collaboration/{cask,dask,dskask,gask,iask,kask,oask,qask}`
-- `claude-ccb-skills/skills/{pend,ping}` -> `claude-code-skills/ai-collaboration/{pend,ping}`
-- `claude-ccb-skills/skills/ccb-launcher` -> `claude-code-skills/ai-collaboration/ccb-launcher`
-- `claude-ccb-skills/skills/stem-modeling` -> `claude-code-skills/research/stem-modeling`
-- integrated orchestration behavior -> `claude-code-skills/ai-collaboration/ccb-unified`
+- the active multi-provider orchestration, agent-team, skill-discovery, and compatibility-wrapper skills live in `claude-code-skills`
+- this standalone repository is kept only as a historical source and redirect pointer
 
-## Maintenance
+Use or update the skills here:
 
-Use `claude-code-skills` for new features, routing updates, and installation flow changes. This repository remains available for historical source context, issue triage, and small compatibility fixes when needed.
+- <https://github.com/LeoLin990405/claude-code-skills/tree/main/ai-collaboration>
